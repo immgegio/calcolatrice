@@ -79,6 +79,20 @@ export default function App() {
               =
             </Text>
           </TouchableOpacity>
+       <TouchableOpacity
+            onPress={() => {
+              setNumeroDigitato("Il risultato è " + totale), setTotale(0);
+            }}
+          >
+            <Text
+              style={{
+                padding: 10,
+                fontSize: 10 * 3,
+              }}
+            >
+              x
+            </Text>
+          </TouchableOpacity>
         </View>
       </View>
     </>
